@@ -14,11 +14,13 @@ public class LoginValidatorTest {
 
     @BeforeAll
     static void testStart() {
+
         System.out.println("Test has started.");
     }
 
     @AfterAll
     static void testFinish() {
+
         System.out.println("Test has finished.");
     }
 
@@ -31,6 +33,7 @@ public class LoginValidatorTest {
 
     @AfterEach
     void devastateObj() {
+
         loginValidator = null;
     }
 

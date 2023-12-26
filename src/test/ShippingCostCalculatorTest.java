@@ -11,21 +11,25 @@ public class ShippingCostCalculatorTest {
 
     @BeforeAll
     static void testStart() {
+
         System.out.println("Test has started.");
     }
 
     @AfterAll
     static void testFinish() {
+
         System.out.println("Test has finished.");
     }
 
     @BeforeEach
     void initializeObj() {
+
         cost = new ShippingCostCalculator();
     }
 
     @AfterEach
     void devastateObj() {
+
         cost = null;
     }
 

@@ -12,21 +12,25 @@ public class AgeRestrictionValidatorTest {
 
     @BeforeAll
     static void testStart() {
+
         System.out.println("Test has started.");
     }
 
     @AfterAll
     static void testFinish() {
+
         System.out.println("Test has finished.");
     }
 
     @BeforeEach
     void initializeObj() {
+
         age = new AgeRestrictionValidator();
     }
 
     @AfterEach
     void devastateObj() {
+
         age = null;
     }
 

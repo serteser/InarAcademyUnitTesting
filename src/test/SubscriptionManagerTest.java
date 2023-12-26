@@ -11,21 +11,25 @@ public class SubscriptionManagerTest {
 
     @BeforeAll
     static void testStart() {
+
         System.out.println("Test has started.");
     }
 
     @AfterAll
     static void testFinish() {
+
         System.out.println("Test has finished.");
     }
 
     @BeforeEach
     void initializeObj() {
+
         manager = new SubscriptionManager();
     }
 
     @AfterEach
     void devastateObj() {
+
         manager = null;
     }
 
